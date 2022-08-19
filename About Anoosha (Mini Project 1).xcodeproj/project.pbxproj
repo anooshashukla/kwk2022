@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD19889228A41F4900D2E742 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD19889128A41F4900D2E742 /* AppDelegate.swift */; };
+		BD19889428A41F4900D2E742 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD19889328A41F4900D2E742 /* SceneDelegate.swift */; };
+		BD19889628A41F4900D2E742 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD19889528A41F4900D2E742 /* ViewController.swift */; };
+		BD19889928A41F4900D2E742 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD19889728A41F4900D2E742 /* Main.storyboard */; };
+		BD19889B28A41F4A00D2E742 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD19889A28A41F4A00D2E742 /* Assets.xcassets */; };
+		BD19889E28A41F4A00D2E742 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD19889C28A41F4A00D2E742 /* LaunchScreen.storyboard */; };
+		BD1988A928A41F4A00D2E742 /* About_Anoosha__Mini_Project_1_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1988A828A41F4A00D2E742 /* About_Anoosha__Mini_Project_1_Tests.swift */; };
+		BD1988B328A41F4A00D2E742 /* About_Anoosha__Mini_Project_1_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1988B228A41F4A00D2E742 /* About_Anoosha__Mini_Project_1_UITests.swift */; };
+		BD1988B528A41F4A00D2E742 /* About_Anoosha__Mini_Project_1_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1988B428A41F4A00D2E742 /* About_Anoosha__Mini_Project_1_UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD1988A528A41F4A00D2E742 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD19888628A41F4900D2E742 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD19888D28A41F4900D2E742;
+			remoteInfo = "About Anoosha (Mini Project 1)";
+		};
+		BD1988AF28A41F4A00D2E742 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD19888628A41F4900D2E742 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD19888D28A41F4900D2E742;
+			remoteInfo = "About Anoosha (Mini Project 1)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD19888E28A41F4900D2E742 /* About Anoosha (Mini Project 1).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "About Anoosha (Mini Project 1).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD19889128A41F4900D2E742 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BD19889328A41F4900D2E742 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BD19889528A41F4900D2E742 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BD19889828A41F4900D2E742 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD19889A28A41F4A00D2E742 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD19889D28A41F4A00D2E742 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD19889F28A41F4A00D2E742 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD1988A428A41F4A00D2E742 /* About Anoosha (Mini Project 1)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "About Anoosha (Mini Project 1)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD1988A828A41F4A00D2E742 /* About_Anoosha__Mini_Project_1_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = About_Anoosha__Mini_Project_1_Tests.swift; sourceTree = "<group>"; };
+		BD1988AE28A41F4A00D2E742 /* About Anoosha (Mini Project 1)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "About Anoosha (Mini Project 1)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD1988B228A41F4A00D2E742 /* About_Anoosha__Mini_Project_1_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = About_Anoosha__Mini_Project_1_UITests.swift; sourceTree = "<group>"; };
+		BD1988B428A41F4A00D2E742 /* About_Anoosha__Mini_Project_1_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = About_Anoosha__Mini_Project_1_UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD19888B28A41F4900D2E742 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD1988A128A41F4A00D2E742 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD1988AB28A41F4A00D2E742 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD19888528A41F4900D2E742 = {
+			isa = PBXGroup;
+			children = (
+				BD19889028A41F4900D2E742 /* About Anoosha (Mini Project 1) */,
+				BD1988A728A41F4A00D2E742 /* About Anoosha (Mini Project 1)Tests */,
+				BD1988B128A41F4A00D2E742 /* About Anoosha (Mini Project 1)UITests */,
+				BD19888F28A41F4900D2E742 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD19888F28A41F4900D2E742 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD19888E28A41F4900D2E742 /* About Anoosha (Mini Project 1).app */,
+				BD1988A428A41F4A00D2E742 /* About Anoosha (Mini Project 1)Tests.xctest */,
+				BD1988AE28A41F4A00D2E742 /* About Anoosha (Mini Project 1)UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD19889028A41F4900D2E742 /* About Anoosha (Mini Project 1) */ = {
+			isa = PBXGroup;
+			children = (
+				BD19889128A41F4900D2E742 /* AppDelegate.swift */,
+				BD19889328A41F4900D2E742 /* SceneDelegate.swift */,
+				BD19889528A41F4900D2E742 /* ViewController.swift */,
+				BD19889728A41F4900D2E742 /* Main.storyboard */,
+				BD19889A28A41F4A00D2E742 /* Assets.xcassets */,
+				BD19889C28A41F4A00D2E742 /* LaunchScreen.storyboard */,
+				BD19889F28A41F4A00D2E742 /* Info.plist */,
+			);
+			path = "About Anoosha (Mini Project 1)";
+			sourceTree = "<group>";
+		};
+		BD1988A728A41F4A00D2E742 /* About Anoosha (Mini Project 1)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BD1988A828A41F4A00D2E742 /* About_Anoosha__Mini_Project_1_Tests.swift */,
+			);
+			path = "About Anoosha (Mini Project 1)Tests";
+			sourceTree = "<group>";
+		};
+		BD1988B128A41F4A00D2E742 /* About Anoosha (Mini Project 1)UITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD1988B228A41F4A00D2E742 /* About_Anoosha__Mini_Project_1_UITests.swift */,
+				BD1988B428A41F4A00D2E742 /* About_Anoosha__Mini_Project_1_UITestsLaunchTests.swift */,
+			);
+			path = "About Anoosha (Mini Project 1)UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD19888D28A41F4900D2E742 /* About Anoosha (Mini Project 1) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD1988B828A41F4A00D2E742 /* Build configuration list for PBXNativeTarget "About Anoosha (Mini Project 1)" */;
+			buildPhases = (
+				BD19888A28A41F4900D2E742 /* Sources */,
+				BD19888B28A41F4900D2E742 /* Frameworks */,
+				BD19888C28A41F4900D2E742 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "About Anoosha (Mini Project 1)";
+			productName = "About Anoosha (Mini Project 1)";
+			productReference = BD19888E28A41F4900D2E742 /* About Anoosha (Mini Project 1).app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD1988A328A41F4A00D2E742 /* About Anoosha (Mini Project 1)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD1988BB28A41F4A00D2E742 /* Build configuration list for PBXNativeTarget "About Anoosha (Mini Project 1)Tests" */;
+			buildPhases = (
+				BD1988A028A41F4A00D2E742 /* Sources */,
+				BD1988A128A41F4A00D2E742 /* Frameworks */,
+				BD1988A228A41F4A00D2E742 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD1988A628A41F4A00D2E742 /* PBXTargetDependency */,
+			);
+			name = "About Anoosha (Mini Project 1)Tests";
+			productName = "About Anoosha (Mini Project 1)Tests";
+			productReference = BD1988A428A41F4A00D2E742 /* About Anoosha (Mini Project 1)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD1988AD28A41F4A00D2E742 /* About Anoosha (Mini Project 1)UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD1988BE28A41F4A00D2E742 /* Build configuration list for PBXNativeTarget "About Anoosha (Mini Project 1)UITests" */;
+			buildPhases = (
+				BD1988AA28A41F4A00D2E742 /* Sources */,
+				BD1988AB28A41F4A00D2E742 /* Frameworks */,
+				BD1988AC28A41F4A00D2E742 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD1988B028A41F4A00D2E742 /* PBXTargetDependency */,
+			);
+			name = "About Anoosha (Mini Project 1)UITests";
+			productName = "About Anoosha (Mini Project 1)UITests";
+			productReference = BD1988AE28A41F4A00D2E742 /* About Anoosha (Mini Project 1)UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD19888628A41F4900D2E742 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					BD19888D28A41F4900D2E742 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					BD1988A328A41F4A00D2E742 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = BD19888D28A41F4900D2E742;
+					};
+					BD1988AD28A41F4A00D2E742 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = BD19888D28A41F4900D2E742;
+					};
+				};
+			};
+			buildConfigurationList = BD19888928A41F4900D2E742 /* Build configuration list for PBXProject "About Anoosha (Mini Project 1)" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD19888528A41F4900D2E742;
+			productRefGroup = BD19888F28A41F4900D2E742 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD19888D28A41F4900D2E742 /* About Anoosha (Mini Project 1) */,
+				BD1988A328A41F4A00D2E742 /* About Anoosha (Mini Project 1)Tests */,
+				BD1988AD28A41F4A00D2E742 /* About Anoosha (Mini Project 1)UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD19888C28A41F4900D2E742 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD19889E28A41F4A00D2E742 /* LaunchScreen.storyboard in Resources */,
+				BD19889B28A41F4A00D2E742 /* Assets.xcassets in Resources */,
+				BD19889928A41F4900D2E742 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD1988A228A41F4A00D2E742 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD1988AC28A41F4A00D2E742 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD19888A28A41F4900D2E742 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD19889628A41F4900D2E742 /* ViewController.swift in Sources */,
+				BD19889228A41F4900D2E742 /* AppDelegate.swift in Sources */,
+				BD19889428A41F4900D2E742 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD1988A028A41F4A00D2E742 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD1988A928A41F4A00D2E742 /* About_Anoosha__Mini_Project_1_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD1988AA28A41F4A00D2E742 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD1988B328A41F4A00D2E742 /* About_Anoosha__Mini_Project_1_UITests.swift in Sources */,
+				BD1988B528A41F4A00D2E742 /* About_Anoosha__Mini_Project_1_UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD1988A628A41F4A00D2E742 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD19888D28A41F4900D2E742 /* About Anoosha (Mini Project 1) */;
+			targetProxy = BD1988A528A41F4A00D2E742 /* PBXContainerItemProxy */;
+		};
+		BD1988B028A41F4A00D2E742 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD19888D28A41F4900D2E742 /* About Anoosha (Mini Project 1) */;
+			targetProxy = BD1988AF28A41F4A00D2E742 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD19889728A41F4900D2E742 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD19889828A41F4900D2E742 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD19889C28A41F4A00D2E742 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD19889D28A41F4A00D2E742 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD1988B628A41F4A00D2E742 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BD1988B728A41F4A00D2E742 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD1988B928A41F4A00D2E742 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "About Anoosha (Mini Project 1)/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kodewithklossy.About-Anoosha--Mini-Project-1-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD1988BA28A41F4A00D2E742 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "About Anoosha (Mini Project 1)/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kodewithklossy.About-Anoosha--Mini-Project-1-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BD1988BC28A41F4A00D2E742 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kodewithklossy.About-Anoosha--Mini-Project-1-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/About Anoosha (Mini Project 1).app/About Anoosha (Mini Project 1)";
+			};
+			name = Debug;
+		};
+		BD1988BD28A41F4A00D2E742 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kodewithklossy.About-Anoosha--Mini-Project-1-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/About Anoosha (Mini Project 1).app/About Anoosha (Mini Project 1)";
+			};
+			name = Release;
+		};
+		BD1988BF28A41F4A00D2E742 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kodewithklossy.About-Anoosha--Mini-Project-1-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "About Anoosha (Mini Project 1)";
+			};
+			name = Debug;
+		};
+		BD1988C028A41F4A00D2E742 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kodewithklossy.About-Anoosha--Mini-Project-1-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "About Anoosha (Mini Project 1)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD19888928A41F4900D2E742 /* Build configuration list for PBXProject "About Anoosha (Mini Project 1)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD1988B628A41F4A00D2E742 /* Debug */,
+				BD1988B728A41F4A00D2E742 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD1988B828A41F4A00D2E742 /* Build configuration list for PBXNativeTarget "About Anoosha (Mini Project 1)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD1988B928A41F4A00D2E742 /* Debug */,
+				BD1988BA28A41F4A00D2E742 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD1988BB28A41F4A00D2E742 /* Build configuration list for PBXNativeTarget "About Anoosha (Mini Project 1)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD1988BC28A41F4A00D2E742 /* Debug */,
+				BD1988BD28A41F4A00D2E742 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD1988BE28A41F4A00D2E742 /* Build configuration list for PBXNativeTarget "About Anoosha (Mini Project 1)UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD1988BF28A41F4A00D2E742 /* Debug */,
+				BD1988C028A41F4A00D2E742 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD19888628A41F4900D2E742 /* Project object */;
+}
